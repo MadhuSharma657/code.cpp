@@ -9,9 +9,11 @@ int factorial(int n) {
         return n * factorial(n - 1);
 }
 
+
 int main() {
     int number;
     cout << "Enter a positive integer: ";
+    cout<<"hello";
     cin >> number;
 
     if (number < 0) {
